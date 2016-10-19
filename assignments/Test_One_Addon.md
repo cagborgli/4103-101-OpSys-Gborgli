@@ -18,8 +18,8 @@ must serve pages to hundreds of Web clients simultaneously; cannot process reque
 1. An instruction trace for a program is the sequence of instructions that execute for that process.
 
 2. Common events that lead to the creation of a process are:
-+++ New batch job
-+++Interactive logon
+..*New batch job
+..*Interactive logon
 ..* Created by OS to provide a service
 ..* Spawned by existing process
 
