@@ -18,8 +18,8 @@ must serve pages to hundreds of Web clients simultaneously; cannot process reque
 1. An instruction trace for a program is the sequence of instructions that execute for that process.
 
 2. Common events that lead to the creation of a process are:
-..* New batch job
-..* Interactive logon
+..*New batch job
+..*Interactive logon
 ..* Created by OS to provide a service
 ..* Spawned by existing process
 
@@ -32,7 +32,7 @@ must serve pages to hundreds of Web clients simultaneously; cannot process reque
 5. There are two independent concepts: 
 ..* whether a process is waiting on an event (blocked or not)
 ..* whether a process has been swapped out of main memory (suspended or not)
-  To accommodate this 2 × 2 combination, we need two Ready states and two Blocked states.
+  To accommodate this 2 Ã— 2 combination, we need two Ready states and two Blocked states.
   
 6. Four characteristics of a suspended process are:
 ..* The process is not immediately available for execution. 
